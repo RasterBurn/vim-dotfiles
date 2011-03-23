@@ -16,3 +16,6 @@
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
 	url = http://github.com/tsaleh/vim-align
+[submodule "bundles/vim-surround"]
+	path = bundles/vim-surround
+	url = http://github.com/tpope/vim-surround.git
