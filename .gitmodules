@@ -7,3 +7,6 @@
 [submodule "bundle/snipmate.vim"]
 	path = bundle/snipmate.vim
 	url = http://github.com/msanders/snipmate.vim.git
+[submodule "bundle/vim-vividchalk"]
+	path = bundle/vim-vividchalk
+	url = http://github.com/tpope/vim-vividchalk
