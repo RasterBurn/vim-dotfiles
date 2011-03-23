@@ -52,3 +52,7 @@ if &term=="xterm"
      set t_Sb=[4%dm
      set t_Sf=[3%dm
 endif
+
+" toggle keys
+map <F2> :NERDTreeToggle<CR>
+set pastetoggle=<F3>
