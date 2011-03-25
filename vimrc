@@ -67,6 +67,7 @@ endif
 
 if &t_Co >= 2 || has("gui_running")
   syntax on
+  set guifont=Envy\ Code\ R\ 14
 endif
 
 if &term=="xterm"
