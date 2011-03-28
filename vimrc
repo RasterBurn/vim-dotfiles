@@ -40,6 +40,8 @@ if has("autocmd")
   \ if line("'\"") > 0 && line ("'\"") <= line("$") |
   \   exe "normal! g'\"" |
   \ endif
+
+  autocmd BufNewFile,BufRead *.ei2d set filetype=xml
 endif
 
 " if has("cscope") && filereadable("/usr/bin/cscope")
