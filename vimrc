@@ -29,6 +29,9 @@ set incsearch
 set noerrorbells
 set nobackup
 set noswapfile
+set hidden
+set smartindent
+set expandtab
 
 
 " Only do this part when compiled with support for autocommands
