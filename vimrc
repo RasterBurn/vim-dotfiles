@@ -72,8 +72,13 @@ endif
 
 if &t_Co >= 2 || has("gui_running")
   syntax on
-  set guifont=Envy\ Code\ R\ 14
+  if has("win32")
+    set guifont=envy_code_r:h14
+  else
+    set guifont=Envy\ Code\ R\ 14
+  endif
 endif
+
 
 if &term=="xterm"
      set t_Co=8
