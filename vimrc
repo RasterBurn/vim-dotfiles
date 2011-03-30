@@ -32,7 +32,7 @@ set noswapfile
 set hidden
 set smartindent
 set expandtab
-
+set fileformats=unix,dos
 
 " Only do this part when compiled with support for autocommands
 if has("autocmd")
