@@ -67,7 +67,11 @@ if &t_Co >= 256 || has("gui_running")
 
   set go-=m " remove menu bar
   set go-=T " remove toolbar
-  set go-=r " remove scroll bar
+  if has("gui_macvim")
+    " need scroll bar to resize in macvim
+  else
+    set go-=r " remove scroll bar
+  endif
 endif
 
 if &t_Co >= 2 || has("gui_running")
