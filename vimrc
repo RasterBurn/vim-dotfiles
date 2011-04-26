@@ -2,7 +2,7 @@ if v:lang =~ "utf8$" || v:lang =~ "UTF-8$"
    set fileencodings=utf-8,latin1
 endif
 
-cal pathogen#runtime_append_all_bundles()
+call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 set nocompatible	" Use Vim defaults (much better!)
@@ -89,3 +89,9 @@ endif
 " toggle keys
 map <F2> :NERDTreeToggle<CR>
 set pastetoggle=<F3>
+
+filetype plugin on
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
