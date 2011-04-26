@@ -78,7 +78,7 @@ if &t_Co >= 2 || has("gui_running")
   syntax on
   if has("win32")
     set guifont=envy_code_r:h14
-  else if has("gui_macvim")
+  elseif has("gui_macvim")
     set guifont=Envy\ Code\ R:h18
   else
     set guifont=Envy\ Code\ R\ 14
