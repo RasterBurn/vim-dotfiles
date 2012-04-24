@@ -101,3 +101,10 @@ autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+
+" syntastic stuff
+let g:syntastic_javascript_checker="jshint"
+
+" command-t stuff
+let g:CommandTMaxFiles=20000
+set wildignore+=build/**,3rdparty/**
