@@ -79,7 +79,7 @@ if &t_Co >= 2 || has("gui_running")
   if has("win32")
     set guifont=envy_code_r:h14
   elseif has("gui_macvim")
-    set guifont=ProggyTiny:h11
+    set guifont=Envy\ Code\ R\ for\ Powerline:h13
   else
     set guifont=Envy\ Code\ R\ 14
   endif
@@ -108,3 +108,8 @@ let g:syntastic_javascript_checker="jshint"
 " command-t stuff
 let g:CommandTMaxFiles=20000
 set wildignore+=build/**,3rdparty/**
+
+" powerline
+set laststatus=2
+set encoding=utf-8
+let g:Powerline_symbols="fancy"
