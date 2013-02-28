@@ -62,7 +62,9 @@ endif
 " endif
 
 if &t_Co >= 256 || has("gui_running")
-  colo vividchalk
+  colorscheme solarized
+  set background=dark
+  let g:solarized_termtrans = 1
 
   set go-=m " remove menu bar
   set go-=T " remove toolbar
@@ -85,11 +87,11 @@ if &t_Co >= 2 || has("gui_running")
 endif
 
 
-if &term=="xterm"
-     set t_Co=8
-     set t_Sb=[4%dm
-     set t_Sf=[3%dm
-endif
+"if &term=="xterm"
+"     set t_Co=8
+"     set t_Sb=[4%dm
+"     set t_Sf=[3%dm
+"endif
 
 " toggle keys
 map <F2> :NERDTreeToggle<CR>
