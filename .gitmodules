@@ -49,3 +49,6 @@
 [submodule "bundle/underscore-templates"]
 	path = bundle/underscore-templates
 	url = https://github.com/aaronj1335/underscore-templates.vim
+[submodule "bundle/vim-clojure-static"]
+	path = bundle/vim-clojure-static
+	url = https://github.com/guns/vim-clojure-static
