@@ -103,6 +103,8 @@ autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
+autocmd FileType python setlocal expandtab tabstop=2 shiftwidth=2
+
 " syntastic stuff
 let g:syntastic_javascript_checker="jshint"
 
@@ -114,3 +116,6 @@ set wildignore+=build/**,3rdparty/**
 set laststatus=2
 set encoding=utf-8
 let g:Powerline_symbols="fancy"
+
+" use mac os x clipboard
+"set clipboard=unnamed
