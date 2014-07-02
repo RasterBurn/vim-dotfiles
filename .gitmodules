@@ -1,27 +1,27 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
-	url = http://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = http://github.com/scrooloose/nerdtree
+	url = https://github.com/scrooloose/nerdtree
 [submodule "bundle/snipmate.vim"]
 	path = bundle/snipmate.vim
-	url = http://github.com/msanders/snipmate.vim.git
+	url = https://github.com/msanders/snipmate.vim.git
 [submodule "bundle/vim-vividchalk"]
 	path = bundle/vim-vividchalk
-	url = http://github.com/tpope/vim-vividchalk
+	url = https://github.com/tpope/vim-vividchalk
 [submodule "bundle/supertab"]
 	path = bundle/supertab
-	url = http://github.com/ervandew/supertab
+	url = https://github.com/ervandew/supertab
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
-	url = http://github.com/tsaleh/vim-align
+	url = https://github.com/tsaleh/vim-align
 [submodule "bundles/vim-surround"]
 	path = bundles/vim-surround
-	url = http://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundles/vim-repeat"]
 	path = bundles/vim-repeat
-	url = http://github.com/tpope/vim-repeat.git
+	url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = git://git.wincent.com/command-t.git
