@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/dan/code/civetl/output/inspire_faculty'
 let g:netrw_dirhist_2='/Users/dan/civ-config/excalibur-prod-valencia'
 let g:netrw_dirhist_3='/Users/dan/code/excalibur/.tmp/stylesheets'
 let g:netrw_dirhist_4='/Users/dan/code/excalibur/test'
 let g:netrw_dirhist_5='/Users/dan/code/euler/src'
+let g:netrw_dirhist_6='/home/vagrant/code/ai-aos-modeling'
