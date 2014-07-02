@@ -62,6 +62,8 @@ endif
 " endif
 
 if &t_Co >= 256 || has("gui_running")
+  let g:solarized_visibility = "high"
+  let g:solarized_contrast = "high"
   colorscheme solarized
   set background=dark
   let g:solarized_termtrans = 1
