@@ -116,6 +116,9 @@ let g:CommandTMaxFiles=20000
 set wildignore+=build/**,3rdparty/**
 
 " powerline
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
 set laststatus=2
 set encoding=utf-8
 let g:Powerline_symbols="fancy"
