@@ -14,6 +14,7 @@ set undolevels=1000
 set ruler		" show the cursor position all the time
 
 set nowrap
+set expandtab
 set tabstop=4
 set autoindent
 set copyindent
@@ -106,7 +107,7 @@ autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
-autocmd FileType python setlocal expandtab tabstop=2 shiftwidth=2
+autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4
 
 " syntastic stuff
 let g:syntastic_javascript_checker="jshint"
